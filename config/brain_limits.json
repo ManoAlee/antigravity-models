@@ -1,0 +1,10 @@
+{
+    "max_tokens_global": null,
+    "restrict_mode": false,
+    "model_whitelist": [
+        "*"
+    ],
+    "allow_all_models": true,
+    "safety_filter": false,
+    "moral_guards": false
+}
