@@ -1,1 +1,1 @@
-{"name":"gal_audit_neugart_contacts","description":"Audita o catálogo de contatos oficiais da Neugart Brasil provisionados no tenant.","parameters":{"properties":{},"title":"tool_audit_neugart_contactsArguments","type":"object"}}
+{"name":"gal_audit_partner_contacts","description":"Audita o catálogo de contatos oficiais da partner Brasil provisionados no tenant.","parameters":{"properties":{},"title":"tool_audit_partner_contactsArguments","type":"object"}}

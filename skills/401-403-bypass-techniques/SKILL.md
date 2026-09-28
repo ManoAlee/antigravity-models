@@ -182,7 +182,7 @@ The proxy sees `GET /` (allowed), but the backend routes to `/admin`.
 
 ### 3.2 IP Spoofing Headers (Whitelist Bypass)
 
-Headers to try (each with values `127.0.0.1`, `10.0.0.1`, `0.0.0.0`, `::1`):
+Headers to try (each with values `127.0.0.1`, `192.168.1.1`, `0.0.0.0`, `::1`):
 
 ```http
 X-Forwarded-For | X-Real-IP | X-Originating-IP | X-Remote-IP

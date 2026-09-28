@@ -146,7 +146,7 @@ rsync -av /tmp/evil_cron TARGET::MODULE/cron.d/backdoor
 auth users = rsync_user
 secrets file = /etc/rsyncd.secrets
 list = no
-hosts allow = 10.0.0.0/8
+hosts allow = 192.168.1.0/8
 read only = yes
 ```
 

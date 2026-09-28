@@ -1021,7 +1021,7 @@ http://127.0.0.1:8500/v1/agent/self     # Consul
 http://127.0.0.1:2379/v2/keys           # etcd
 http://127.0.0.1:9200/_cat/indices?v    # Elasticsearch
 http://127.0.0.1:5432/                  # PostgreSQL (banner)
-http://10.0.0.0/8 ranges                # Internal APIs
+http://192.168.1.0/8 ranges                # Internal APIs
 ```
 
 `gopher://` payload to write to internal Redis (RCE via writing crontab):

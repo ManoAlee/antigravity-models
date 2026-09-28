@@ -84,7 +84,7 @@ done
 # Hashed known_hosts (common default):
 cat ~/.ssh/known_hosts
 # May be hashed — use ssh-keygen to check against known IPs:
-ssh-keygen -F 10.0.0.1 -f ~/.ssh/known_hosts
+ssh-keygen -F 192.168.1.1 -f ~/.ssh/known_hosts
 
 # Unhashed known_hosts → direct IP/hostname list
 awk '{print $1}' ~/.ssh/known_hosts | sort -u
@@ -234,7 +234,7 @@ for i in $(seq 1 254); do ping -c1 -W1 10.0.0.$i &>/dev/null && echo "ALIVE: 10.
 
 # Port scan via /dev/tcp:
 for port in 22 80 443 3306 5432 6379 8080; do
-    (echo >/dev/tcp/10.0.0.1/$port) 2>/dev/null && echo "OPEN: $port"
+    (echo >/dev/tcp/192.168.1.1/$port) 2>/dev/null && echo "OPEN: $port"
 done
 ```
 

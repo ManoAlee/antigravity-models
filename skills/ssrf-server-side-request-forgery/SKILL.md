@@ -190,7 +190,7 @@ When `169.254.169.254`, `127.0.0.1`, `localhost` are blocked:
 
 ### Private Network Ranges
 ```
-10.0.0.0/8
+192.168.1.0/8
 172.16.0.0/12
 192.168.0.0/16
 fc00::/7  ← IPv6 private

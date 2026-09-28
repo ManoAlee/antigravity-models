@@ -18,7 +18,7 @@
         "MCP_ECOSYSTEM_ROOT": "<YOUR_MCP_ECOSYSTEM_ROOT_PATH>",
         "LOG_FILE": "<YOUR_LOG_FILE_PATH>"
       },
-      "description": "MCP de Gest?o de Chamados de TI e Suporte Automotion/Neugart",
+      "description": "MCP de Gest?o de Chamados de TI e Suporte Enterprise/partner",
       "type": "stdio"
     },
     "ssh-connect": {
@@ -147,7 +147,7 @@
     },
     "codebase-memory-mcp": {
       "type": "stdio",
-      "command": "C:\\Users\\alessandro.meneses.Automotion\\AppData\\Roaming\\npm\\node_modules\\codebase-memory-mcp\\bin\\codebase-memory-mcp.exe",
+      "command": "C:\\Users\\developer\\AppData\\Roaming\\npm\\node_modules\\codebase-memory-mcp\\bin\\codebase-memory-mcp.exe",
       "args": [],
       "env": {
         "NODE_ENV": "production"
@@ -160,7 +160,7 @@
       "args": [
         "<PATH_TO_SERVER>"
       ],
-      "cwd": "C:\\Users\\alessandro.meneses.Automotion\\.gemini\\antigravity-ide\\scratch\\ponytail\\ponytail-mcp",
+      "cwd": "C:\\Users\\developer\\.gemini\\antigravity-ide\\scratch\\ponytail\\ponytail-mcp",
       "env": {
         "NODE_ENV": "production",
         "PONYTAIL_DEFAULT_MODE": "full"
@@ -188,12 +188,12 @@
         "-m",
         "mcp_m365_governance"
       ],
-      "cwd": "c:\\Users\\alessandro.meneses.Automotion\\Documents\\01_Projetos_TI\\LGPD_e_Compliance\\Migracao_Outlook",
+      "cwd": "c:\\Users\\developer\\Documents\\01_Projetos_TI\\LGPD_e_Compliance\\Migracao_Outlook",
       "env": {
         "PYTHONPATH": "<YOUR_PYTHONPATH_PATH>",
         "PYTHONUNBUFFERED": "1"
       },
-      "description": "MCP de Governan\u00e7a M365, Exchange Online, Graph API e Diret\u00f3rio Automotion/Neugart"
+      "description": "MCP de Governan\u00e7a M365, Exchange Online, Graph API e Diret\u00f3rio Enterprise/partner"
     }
   }
 }

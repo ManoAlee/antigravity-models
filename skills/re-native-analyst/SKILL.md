@@ -2,7 +2,7 @@
 name: re-native-analyst
 description: Advanced Binary Reverse Engineering, Decompilation, Crash Forensics, and Machine Code Triage integrating x64dbg-bridge, deterministic CLI harnesses, prompt injection defense, and structured disassembly workflows.
 metadata:
-  origin: Automotion-ECC-Plinius-CLI
+  origin: Enterprise-ECC-Plinius-CLI
   version: 2.0.0
 ---
 

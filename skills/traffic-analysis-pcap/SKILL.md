@@ -35,11 +35,11 @@ mergecap -w merged.pcap file1.pcap file2.pcap  # merge captures
 ### IP / Host Filters
 
 ```
-ip.addr == 10.0.0.1                  # source or destination
-ip.src == 10.0.0.1                   # source only
-ip.dst == 10.0.0.1                   # destination only
-ip.addr == 10.0.0.0/24              # subnet
-!(ip.addr == 10.0.0.1)              # exclude host
+ip.addr == 192.168.1.1                  # source or destination
+ip.src == 192.168.1.1                   # source only
+ip.dst == 192.168.1.1                   # destination only
+ip.addr == 192.168.1.0/24              # subnet
+!(ip.addr == 192.168.1.1)              # exclude host
 ```
 
 ### Protocol Filters

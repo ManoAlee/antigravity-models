@@ -236,7 +236,7 @@ Internal APIs often use wildcard CORS because "only internal users can reach it.
 // On attacker.com — target internal API from victim's browser
 const internalAPIs = [
     'http://192.168.1.1/admin/config',
-    'http://10.0.0.1:8080/api/users',
+    'http://192.168.1.1:8080/api/users',
     'http://172.16.0.1:9200/_cat/indices',  // Elasticsearch
     'http://localhost:8500/v1/agent/members', // Consul
 ];

