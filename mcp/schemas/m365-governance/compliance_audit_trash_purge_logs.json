@@ -1,0 +1,1 @@
+{"name":"compliance_audit_trash_purge_logs","description":"Audita os relatórios de execução das rotinas de limpeza de itens recuperáveis / lixeiras M365 (LGPD).","parameters":{"properties":{},"title":"tool_audit_trash_purge_logsArguments","type":"object"}}

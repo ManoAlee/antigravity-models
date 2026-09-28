@@ -1,0 +1,1 @@
+{"name":"nexus_lookup_audit","description":"Consulta a trilha de auditoria e data lineage completa para o registro de um chamado.","parameters":{"properties":{"record_id":{"description":"ID numérico do chamado","type":"string"}},"required":["record_id"],"type":"object"}}

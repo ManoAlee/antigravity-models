@@ -1,0 +1,1 @@
+{"name":"get_system_info","description":"Diagnose active host: gathers CPU load, memory usage, disk space, network interfaces, and OS version.","parameters":{"properties":{},"required":[],"type":"object"}}

@@ -1,0 +1,1 @@
+{"name":"skill_get","description":"Le o SKILL.md de um skill e devolve o conteudo cru com metadados, sem enquadramento de execucao. Use para inspecao/auditoria.","parameters":{"properties":{"id":{"description":"Id do skill (caminho relativo a raiz de descoberta).","type":"string"},"name":{"description":"Nome do skill (basename do diretorio).","type":"string"}},"type":"object"}}

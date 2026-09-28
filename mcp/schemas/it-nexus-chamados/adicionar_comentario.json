@@ -1,0 +1,1 @@
+{"name":"adicionar_comentario","description":"Alias de nexus_add_comment.","parameters":{"properties":{"content":{"type":"string"},"is_internal":{"type":"boolean"},"ticket_id":{"type":"number"}},"required":["ticket_id","content"],"type":"object"}}

@@ -1,0 +1,1 @@
+{"name":"m365_list_inbox_rules","description":"Lista todas as regras de caixa de entrada (InboxRules) ativas em uma caixa postal.","parameters":{"properties":{"user_upn":{"title":"User Upn","type":"string"}},"required":["user_upn"],"title":"tool_list_inbox_rulesArguments","type":"object"}}

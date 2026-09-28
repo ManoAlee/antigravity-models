@@ -1,0 +1,1 @@
+{"name":"m365_get_user_profile","description":"Consulta o perfil corporativo completo de um colaborador (Cargo, Departamento, Telefones, Escritório e Status).","parameters":{"properties":{"user_upn":{"title":"User Upn","type":"string"}},"required":["user_upn"],"title":"tool_get_user_profileArguments","type":"object"}}

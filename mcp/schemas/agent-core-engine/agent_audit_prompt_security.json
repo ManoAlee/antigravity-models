@@ -1,0 +1,1 @@
+{"name":"agent_audit_prompt_security","description":"Audita prompts e entradas para detectar tentativas de Prompt Injection, Jailbreak (DAN/Developer mode), extração de credenciais ou quebra de restrições.","parameters":{"properties":{"input_prompt":{"description":"Texto do prompt a ser auditado","type":"string"}},"required":["input_prompt"],"type":"object"}}

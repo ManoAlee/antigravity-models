@@ -1,0 +1,1 @@
+{"name":"gal_search_directory_users","description":"Busca colaboradores e contas no diretório do Entra ID por nome ou e-mail.","parameters":{"properties":{"search_term":{"title":"Search Term","type":"string"},"top":{"default":20,"title":"Top","type":"integer"}},"required":["search_term"],"title":"tool_search_directory_usersArguments","type":"object"}}

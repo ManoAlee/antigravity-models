@@ -1,0 +1,1 @@
+{"name":"dsh_exec_task","description":"Executa comandos ou tarefas de agente usando o CLI do DeepSeek Harness.","parameters":{"properties":{"command":{"description":"Subcomando do dsh (ex: \"run\", \"eval\", \"plugin list\")","type":"string"},"workingDir":{"description":"Diretorio de trabalho (opcional)","type":"string"}},"required":["command"],"type":"object"}}

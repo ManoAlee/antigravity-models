@@ -1,0 +1,1 @@
+{"name":"disconnect","description":"Disconnect from active SSH server or reset session state","parameters":{"properties":{"alias":{"description":"Optional session alias to disconnect","type":"string"}},"required":[],"type":"object"}}

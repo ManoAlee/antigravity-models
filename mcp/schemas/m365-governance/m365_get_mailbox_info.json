@@ -1,0 +1,1 @@
+{"name":"m365_get_mailbox_info","description":"Recupera metadados detalhados de uma caixa postal (tipo, protocolos, UPN, aliases, encaminhamentos).","parameters":{"properties":{"identity":{"title":"Identity","type":"string"}},"required":["identity"],"title":"tool_get_mailbox_infoArguments","type":"object"}}

@@ -1,0 +1,1 @@
+{"name":"finalizar_chamado_com_diagrama","description":"Alias de nexus_resolve_ticket com garantia de fluxograma Mermaid.","parameters":{"properties":{"mermaid_diagram":{"type":"string"},"resolution":{"type":"string"},"root_cause":{"type":"string"},"ticket_id":{"type":"number"}},"required":["ticket_id","resolution"],"type":"object"}}

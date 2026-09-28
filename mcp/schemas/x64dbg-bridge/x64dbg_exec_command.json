@@ -1,0 +1,1 @@
+{"name":"x64dbg_exec_command","description":"Executa um comando direto na linha de comando interna do x64dbg (ex: \"bp 0x401000\", \"log {rip}\", \"cls\").","parameters":{"properties":{"command":{"description":"Comando do x64dbg a ser executado.","type":"string"}},"required":["command"],"type":"object"}}

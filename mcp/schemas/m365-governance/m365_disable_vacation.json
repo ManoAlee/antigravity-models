@@ -1,0 +1,1 @@
+{"name":"m365_disable_vacation","description":"Desativa imediatamente a resposta automática e remove regras temporais de férias da caixa.","parameters":{"properties":{"user_upn":{"title":"User Upn","type":"string"}},"required":["user_upn"],"title":"tool_disable_vacationArguments","type":"object"}}

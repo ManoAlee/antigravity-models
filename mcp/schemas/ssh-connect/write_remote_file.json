@@ -1,0 +1,1 @@
+{"name":"write_remote_file","description":"Write or append content directly to a remote file","parameters":{"properties":{"append":{"description":"Set true to append instead of overwrite","type":"boolean"},"content":{"description":"Content to write","type":"string"},"path":{"description":"Absolute remote file path","type":"string"}},"required":["path","content"],"type":"object"}}

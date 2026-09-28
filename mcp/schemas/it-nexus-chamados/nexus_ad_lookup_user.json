@@ -1,0 +1,1 @@
+{"name":"nexus_ad_lookup_user","description":"Consulta em tempo real o perfil de um colaborador no Active Directory (departamento, grupos de segurança, ramal corporativo, status de bloqueio de conta).","parameters":{"properties":{"username":{"description":"Nome de usuário ou e-mail corporativo","type":"string"}},"required":["username"],"type":"object"}}

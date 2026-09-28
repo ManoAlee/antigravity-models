@@ -1,0 +1,1 @@
+{"name":"tail_remote_log","description":"View the last N lines of any remote log file (e.g. /var/log/syslog, app.log)","parameters":{"properties":{"lines":{"description":"Number of lines to tail (default: 50)","type":"integer"},"path":{"description":"Absolute path to log file","type":"string"}},"required":["path"],"type":"object"}}

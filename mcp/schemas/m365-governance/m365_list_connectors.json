@@ -1,0 +1,1 @@
+{"name":"m365_list_connectors","description":"Lista conectores de entrada (Inbound) e saída (Outbound) do Exchange Online.","parameters":{"properties":{},"title":"tool_list_connectorsArguments","type":"object"}}

@@ -1,0 +1,1 @@
+{"name":"m365_verify_dkim_status","description":"Consulta o status de assinatura e chaves DKIM ativas nos domínios corporativos.","parameters":{"properties":{},"title":"tool_verify_dkim_statusArguments","type":"object"}}

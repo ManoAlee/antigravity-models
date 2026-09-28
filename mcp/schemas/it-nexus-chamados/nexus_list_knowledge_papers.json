@@ -1,0 +1,1 @@
+{"name":"nexus_list_knowledge_papers","description":"Lista todos os 15 artigos científicos SOTA (PDFs) do diretório BASE/papers/ e retorna o tamanho do DNA de raciocínio.","parameters":{"properties":{},"type":"object"}}

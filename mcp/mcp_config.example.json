@@ -1,0 +1,199 @@
+{
+  "$schema": "https://json.schemastore.org/mcp-config.json",
+  "version": "1.0.0",
+  "mcpServers": {
+    "it-nexus-chamados": {
+      "command": "node",
+      "args": [
+        "<PATH_TO_SERVER>"
+      ],
+      "cwd": "C:\\MCP_Ecosystem\\servers\\it-nexus-chamados",
+      "env": {
+        "NODE_ENV": "production",
+        "DB_HOST": "<YOUR_DB_HOST>",
+        "DB_PORT": "<YOUR_DB_PORT>",
+        "DB_NAME": "<YOUR_DB_NAME>",
+        "DB_USER": "<YOUR_DB_USER>",
+        "DB_PASS": "<YOUR_DB_PASS>",
+        "MCP_ECOSYSTEM_ROOT": "<YOUR_MCP_ECOSYSTEM_ROOT_PATH>",
+        "LOG_FILE": "<YOUR_LOG_FILE_PATH>"
+      },
+      "description": "MCP de Gest?o de Chamados de TI e Suporte Automotion/Neugart",
+      "type": "stdio"
+    },
+    "ssh-connect": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "-m",
+        "ssh_connect"
+      ],
+      "cwd": "C:\\ssh-mcp\\server\\src",
+      "env": {
+        "PYTHONPATH": "<YOUR_PYTHONPATH_PATH>",
+        "SSH_MCP_PROJECT_DIR": "<YOUR_SSH_MCP_PROJECT_DIR_PATH>",
+        "SSH_MCP_LOG": "<YOUR_SSH_MCP_LOG_PATH>",
+        "PYTHONUNBUFFERED": "1",
+        "SystemRoot": "C:\\Windows",
+        "SystemDrive": "C:",
+        "PATH": "<YOUR_PATH_PATH>"
+      },
+      "description": "MCP de Conex?o SSH / WinRM e Diagn?stico Remoto de Servidores"
+    },
+    "context7": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "<PATH_TO_SERVER>"
+      ],
+      "cwd": "C:\\MCP_Ecosystem\\servers\\context7",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "description": "Context7 MCP (Upstash) - Busca documenta??o e APIs atualizadas de c?digo em tempo real"
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "<PATH_TO_SERVER>"
+      ],
+      "cwd": "C:\\MCP_Ecosystem\\servers\\playwright",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "description": "Playwright MCP (Microsoft) - Automa??o Web, Scraping e Testes E2E"
+    },
+    "deepseek-harness": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "<PATH_TO_SERVER>"
+      ],
+      "cwd": "C:\\MCP_Ecosystem\\servers\\deepseek-harness",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "description": "DeepSeek Harness MCP - Orquestra??o de Agente, Web UI e Avalia??o de C?digo"
+    },
+    "diagram-design": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "<PATH_TO_SERVER>"
+      ],
+      "cwd": "C:\\MCP_Ecosystem\\servers\\diagram-design",
+      "env": {
+        "NODE_ENV": "production",
+        "DIAGRAM_LOG_FILE": "<YOUR_DIAGRAM_LOG_FILE_PATH>"
+      },
+      "description": "Diagram Design MCP - Editorial quality diagrams (39 types in pure HTML/SVG, brand onboarding, no Mermaid slop)"
+    },
+    "agent-core-engine": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "<PATH_TO_SERVER>"
+      ],
+      "cwd": "C:\\MCP_Ecosystem\\servers\\agent-core-engine",
+      "env": {
+        "NODE_ENV": "production",
+        "AGENT_CORE_LOG": "<YOUR_AGENT_CORE_LOG_PATH>"
+      },
+      "description": "Agent Core Engine MCP - Senior AI Brain (Dual Memory, Log Diagnosis RCA, Trajectory Verifier & Multi-Role Orchestration)"
+    },
+    "graphify": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "-m",
+        "graphify.serve"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      },
+      "description": "Graphify Knowledge Graph MCP Server - Codebase Navigation, AST Queries, Community Detection & Impact Analysis"
+    },
+    "x64dbg-bridge": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "<PATH_TO_SERVER>"
+      ],
+      "cwd": "C:\\MCP_Ecosystem\\servers\\x64dbg-bridge",
+      "env": {
+        "NODE_ENV": "production",
+        "X64DBG_MCP_LOG": "<YOUR_X64DBG_MCP_LOG_PATH>"
+      },
+      "description": "x64dbg Bridge MCP - Depuracao interativa x64/x86, leitura de memoria, registradores, disasm e controle de execucao com x64dbg/x32dbg"
+    },
+    "agent-reach": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "-m",
+        "agent_reach.integrations.mcp_server"
+      ],
+      "cwd": "C:\\MCP_Ecosystem\\servers\\agent-reach",
+      "env": {
+        "PYTHONUNBUFFERED": "1",
+        "PYTHONIOENCODING": "utf-8",
+        "PYTHONUTF8": "1",
+        "SystemRoot": "C:\\Windows",
+        "SystemDrive": "C:",
+        "PATH": "<YOUR_PATH_PATH>"
+      },
+      "description": "Agent Reach MCP - Roteador de internet, leitor web Markdown, extrator do YouTube e busca multiplataforma (Twitter, Reddit, Bilibili, GitHub, Xueqiu, RSS)"
+    },
+    "codebase-memory-mcp": {
+      "type": "stdio",
+      "command": "C:\\Users\\alessandro.meneses.Automotion\\AppData\\Roaming\\npm\\node_modules\\codebase-memory-mcp\\bin\\codebase-memory-mcp.exe",
+      "args": [],
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "description": "Codebase Memory MCP - Pure C ultra-fast AST & Hybrid LSP code intelligence engine (162 languages, <1ms queries, SQLite in-memory, Cypher)"
+    },
+    "ponytail": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "<PATH_TO_SERVER>"
+      ],
+      "cwd": "C:\\Users\\alessandro.meneses.Automotion\\.gemini\\antigravity-ide\\scratch\\ponytail\\ponytail-mcp",
+      "env": {
+        "NODE_ENV": "production",
+        "PONYTAIL_DEFAULT_MODE": "full"
+      },
+      "description": "Ponytail MCP - Lazy senior dev mode: YAGNI, in-codebase reuse, stdlib first, native platform features, zero bloat"
+    },
+    "skill-navigator": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "<PATH_TO_SERVER>"
+      ],
+      "cwd": "C:\\MCP_Ecosystem\\servers\\skill-navigator",
+      "env": {
+        "NODE_ENV": "production",
+        "SKILL_NAV_CWD": "<YOUR_SKILL_NAV_CWD_PATH>",
+        "SKILL_NAV_LOG_FILE": "<YOUR_SKILL_NAV_LOG_FILE_PATH>"
+      },
+      "description": "Skill Navigator MCP - Discover, classify and authorize agent skills (offensive/dual_use/defensive/general) with security guardrail and root-scope dedup"
+    },
+    "m365-governance": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "-m",
+        "mcp_m365_governance"
+      ],
+      "cwd": "c:\\Users\\alessandro.meneses.Automotion\\Documents\\01_Projetos_TI\\LGPD_e_Compliance\\Migracao_Outlook",
+      "env": {
+        "PYTHONPATH": "<YOUR_PYTHONPATH_PATH>",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "description": "MCP de Governan\u00e7a M365, Exchange Online, Graph API e Diret\u00f3rio Automotion/Neugart"
+    }
+  }
+}

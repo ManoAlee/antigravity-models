@@ -1,0 +1,1 @@
+{"name":"nexus_health_check","description":"Verifica a integridade da conexão do banco de dados PostgreSQL, Redis e status operacional do backend.","parameters":{"properties":{},"type":"object"}}

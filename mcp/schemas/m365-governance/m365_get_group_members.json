@@ -1,0 +1,1 @@
+{"name":"m365_get_group_members","description":"Consulta a lista de membros de um grupo de distribuição específico.","parameters":{"properties":{"group_identity":{"title":"Group Identity","type":"string"}},"required":["group_identity"],"title":"tool_get_group_membersArguments","type":"object"}}

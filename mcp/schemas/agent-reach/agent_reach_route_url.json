@@ -1,0 +1,1 @@
+{"name":"agent_reach_route_url","description":"Analyze any URL to determine which of the 15 platforms handles it, check if its backend is active, and recommend the best fetch command.","parameters":{"properties":{"url":{"description":"Target URL to inspect and route.","type":"string"}},"required":["url"],"type":"object"}}

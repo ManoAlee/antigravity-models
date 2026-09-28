@@ -1,0 +1,1 @@
+{"name":"port_scan_diagnostic","description":"Scan listening network ports and sockets (ss/netstat/TCP connections)","parameters":{"properties":{},"required":[],"type":"object"}}

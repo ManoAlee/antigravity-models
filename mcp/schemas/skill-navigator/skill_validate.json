@@ -1,0 +1,1 @@
+{"name":"skill_validate","description":"Audita a integridade de TODO o acervo: SKILL.md presente e legivel, frontmatter com name/description, coerencia nome do diretorio, kebab-case, duplicados. Retorna contagem de erros e avisos.","parameters":{"properties":{},"type":"object"}}

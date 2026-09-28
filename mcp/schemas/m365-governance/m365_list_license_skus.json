@@ -1,0 +1,1 @@
+{"name":"m365_list_license_skus","description":"Consulta todos os pacotes de licença atribuídos ao Tenant, detalhando unidades habilitadas, consumidas e livres.","parameters":{"properties":{},"title":"tool_list_license_skusArguments","type":"object"}}

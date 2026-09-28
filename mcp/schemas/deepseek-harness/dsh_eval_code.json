@@ -1,0 +1,1 @@
+{"name":"dsh_eval_code","description":"Executa bateria de testes ou avaliacao de codigo com o harness do DeepSeek.","parameters":{"properties":{"testPath":{"description":"Caminho do arquivo ou diretorio para avaliar","type":"string"}},"required":["testPath"],"type":"object"}}

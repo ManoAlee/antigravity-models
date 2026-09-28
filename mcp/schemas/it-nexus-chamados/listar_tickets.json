@@ -1,0 +1,1 @@
+{"name":"listar_tickets","description":"Alias de nexus_get_tickets. Lista chamados.","parameters":{"properties":{"limit":{"type":"number"},"status":{"type":"string"}},"type":"object"}}

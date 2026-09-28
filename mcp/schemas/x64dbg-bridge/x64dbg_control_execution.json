@@ -1,0 +1,1 @@
+{"name":"x64dbg_control_execution","description":"Controla o fluxo de execucao do processo depurado: step_into (F7), step_over (F8), pause, ou resume (F9).","parameters":{"properties":{"action":{"description":"Acao de execucao a ser enviada ao depurador.","enum":["step_into","step_over","pause","resume"],"type":"string"}},"required":["action"],"type":"object"}}

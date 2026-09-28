@@ -1,0 +1,1 @@
+{"name":"compliance_audit_signatures","description":"Audita o mapeamento corporativo de assinaturas de e-mail padronizadas no domínio.","parameters":{"properties":{},"title":"tool_audit_signaturesArguments","type":"object"}}

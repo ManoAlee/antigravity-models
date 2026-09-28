@@ -1,0 +1,1 @@
+{"name":"m365_audit_ex_employees","description":"Audita caixas de ex-colaboradores para detectar risco de rejeição NDR 550 5.1.10 e conformidade de licenças.","parameters":{"properties":{},"title":"tool_audit_ex_employeesArguments","type":"object"}}

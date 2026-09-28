@@ -1,0 +1,1 @@
+{"name":"agent_reach_read_web","description":"Read any public web page or article as clean Markdown via Jina Reader. Zero-config, bypasses heavy browsers.","parameters":{"properties":{"url":{"description":"The HTTP or HTTPS URL of the web page or article to read.","type":"string"}},"required":["url"],"type":"object"}}

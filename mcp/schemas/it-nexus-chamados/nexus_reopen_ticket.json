@@ -1,0 +1,1 @@
+{"name":"nexus_reopen_ticket","description":"Reabre um chamado que havia sido resolvido/encerrado, registrando o motivo técnico no histórico.","parameters":{"properties":{"reason":{"description":"Motivo detalhado da reabertura","type":"string"},"ticket_id":{"description":"ID numérico do chamado","type":"number"}},"required":["ticket_id","reason"],"type":"object"}}

@@ -1,0 +1,1 @@
+{"name":"graph_list_recent_messages","description":"Consulta as mensagens mais recentes da caixa de correio via Microsoft Graph API.","parameters":{"properties":{"top":{"default":10,"title":"Top","type":"integer"},"user_upn":{"title":"User Upn","type":"string"}},"required":["user_upn"],"title":"tool_list_recent_messagesArguments","type":"object"}}

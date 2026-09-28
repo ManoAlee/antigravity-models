@@ -1,0 +1,1 @@
+{"name":"agent_multi_role_orchestrate","description":"Decompõe uma missão complexa de TI/engenharia em estágios com papéis especializados (Planner, Executor, Validator, Reporter).","parameters":{"properties":{"mission_goal":{"description":"Objetivo macro da missão","type":"string"}},"required":["mission_goal"],"type":"object"}}

@@ -1,0 +1,1 @@
+{"name":"criar_ticket","description":"Alias de nexus_create_ticket. Cria um novo chamado no IT Nexus.","parameters":{"properties":{"category":{"type":"string"},"description":{"type":"string"},"priority":{"enum":["low","medium","high","critical"],"type":"string"},"requester":{"type":"string"},"title":{"type":"string"}},"required":["title","description"],"type":"object"}}

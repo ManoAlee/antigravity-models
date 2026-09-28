@@ -1,0 +1,1 @@
+{"name":"atualizar_ticket","description":"Alias de nexus_update_ticket.","parameters":{"properties":{"priority":{"type":"string"},"status":{"type":"string"},"ticket_id":{"type":"number"}},"required":["ticket_id"],"type":"object"}}

@@ -1,0 +1,1 @@
+{"name":"get_status","description":"Compatibility tool: Get Agent Reach status report showing which channels are installed and active.","parameters":{"properties":{},"type":"object"}}

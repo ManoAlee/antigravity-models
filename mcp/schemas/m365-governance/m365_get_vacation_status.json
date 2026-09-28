@@ -1,0 +1,1 @@
+{"name":"m365_get_vacation_status","description":"Consulta o status de resposta automática (Auto-Reply) e regras de encaminhamento de férias de uma caixa.","parameters":{"properties":{"user_upn":{"title":"User Upn","type":"string"}},"required":["user_upn"],"title":"tool_get_vacation_statusArguments","type":"object"}}

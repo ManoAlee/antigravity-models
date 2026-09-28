@@ -1,0 +1,1 @@
+{"name":"buscar_ticket","description":"Consulta detalhes de um chamado pelo ID.","parameters":{"properties":{"ticket_id":{"type":"number"}},"required":["ticket_id"],"type":"object"}}

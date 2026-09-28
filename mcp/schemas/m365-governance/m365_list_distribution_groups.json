@@ -1,0 +1,1 @@
+{"name":"m365_list_distribution_groups","description":"Lista os grupos de distribuição do tenant com detalhes de autenticação e recebimento externo.","parameters":{"properties":{"result_size":{"default":50,"title":"Result Size","type":"integer"}},"title":"tool_list_distribution_groupsArguments","type":"object"}}

@@ -1,0 +1,1 @@
+{"name":"agent_memory_inspect","description":"Inspeciona o estado geral da base de memória persistente e categorias ativas.","parameters":{"properties":{},"type":"object"}}

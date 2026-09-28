@@ -1,0 +1,1 @@
+{"name":"nexus_get_attachments","description":"Recupera a lista completa de anexos vinculados a um chamado (com links canônicos de download, tipos MIME e prévias visuais em Base64 para imagens).","parameters":{"properties":{"ticket_id":{"description":"ID numérico do chamado","type":"number"}},"required":["ticket_id"],"type":"object"}}

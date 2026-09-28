@@ -1,0 +1,1 @@
+{"name":"download","description":"Download file from active server/host to local machine","parameters":{"properties":{"local_path":{"description":"Local destination path","type":"string"},"remote_path":{"description":"Remote file path","type":"string"}},"required":["remote_path","local_path"],"type":"object"}}

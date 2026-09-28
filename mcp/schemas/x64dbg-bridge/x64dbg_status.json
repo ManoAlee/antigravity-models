@@ -1,0 +1,1 @@
+{"name":"x64dbg_status","description":"Verifica o status de conexao da ponte com o x64dbg, processo alvo anexado (PID, executavel) e estado de execucao (PAUSED, RUNNING, STOPPED).","parameters":{"properties":{},"required":[],"type":"object"}}

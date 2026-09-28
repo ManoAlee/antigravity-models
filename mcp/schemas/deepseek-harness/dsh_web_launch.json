@@ -1,0 +1,1 @@
+{"name":"dsh_web_launch","description":"Inicia a interface Web UI do DeepSeek Harness em segundo plano (porta padrao: 3080).","parameters":{"properties":{"noOpen":{"default":true,"description":"Nao abrir o navegador automaticamente","type":"boolean"},"port":{"default":3080,"description":"Porta HTTP para o Web UI (padrao: 3080)","type":"number"}},"required":[],"type":"object"}}

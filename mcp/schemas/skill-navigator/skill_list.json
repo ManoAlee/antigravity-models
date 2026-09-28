@@ -1,0 +1,1 @@
+{"name":"skill_list","description":"Lista os skills do indice com nome, descricao, escopo e classificacao de risco. Aceita filtros de escopo e classificacao.","parameters":{"properties":{"classification":{"enum":["offensive","dual_use","defensive","general"],"type":"string"},"limit":{"type":"number"},"scope":{"enum":["workspace","global"],"type":"string"}},"type":"object"}}

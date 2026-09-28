@@ -1,0 +1,1 @@
+{"name":"m365_remove_inbox_rule","description":"Remove uma regra de entrada específica de uma caixa pelo nome.","parameters":{"properties":{"rule_name":{"title":"Rule Name","type":"string"},"user_upn":{"title":"User Upn","type":"string"}},"required":["user_upn","rule_name"],"title":"tool_remove_inbox_ruleArguments","type":"object"}}

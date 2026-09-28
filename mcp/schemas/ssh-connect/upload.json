@@ -1,0 +1,1 @@
+{"name":"upload","description":"Upload local file to active server/host via SFTP or Windows administrative share (C$)","parameters":{"properties":{"local_path":{"description":"Local file path","type":"string"},"remote_path":{"description":"Remote destination path","type":"string"}},"required":["local_path","remote_path"],"type":"object"}}

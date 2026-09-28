@@ -1,0 +1,1 @@
+{"name":"m365_list_transport_rules","description":"Lista as regras de transporte corporativas (TransportRules) do tenant Microsoft 365.","parameters":{"properties":{"filter_state":{"anyOf":[{"type":"string"},{"type":"null"}],"default":null,"title":"Filter State"}},"title":"tool_list_transport_rulesArguments","type":"object"}}

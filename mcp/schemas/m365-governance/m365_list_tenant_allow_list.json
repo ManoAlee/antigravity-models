@@ -1,0 +1,1 @@
+{"name":"m365_list_tenant_allow_list","description":"Lista itens cadastrados na Tenant Allow/Block List do Microsoft Defender (remetentes, domínios e URLs).","parameters":{"properties":{},"title":"tool_list_tenant_allow_listArguments","type":"object"}}

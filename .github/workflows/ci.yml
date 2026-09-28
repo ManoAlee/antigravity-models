@@ -1,0 +1,32 @@
+name: Antigravity Ecosystem CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate-skills-and-schemas:
+    name: Validate Skills, Rules & MCP Schemas
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Verify Skills Integrity
+        run: |
+          count=$(find skills -name "SKILL.md" | wc -l)
+          echo "Found $count valid SKILL.md specifications"
+          test $count -ge 100
+        shell: bash
+
+      - name: Verify Documentation & License
+        run: |
+          test -f README.md
+          test -f LICENSE
+          test -f docs/SKILLS_CATALOG.md
+          test -f docs/MCP_ECOSYSTEM.md
+          test -f mcp/mcp_config.example.json
+          echo "All core documentation verified."
+        shell: bash

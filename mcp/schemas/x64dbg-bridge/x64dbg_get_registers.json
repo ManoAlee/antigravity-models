@@ -1,0 +1,1 @@
+{"name":"x64dbg_get_registers","description":"Recupera os registradores da CPU (RAX, RBX, RCX, RDX, RSI, RDI, RSP, RBP, RIP, R8-R15, EFLAGS) com valores hexadecimais formatados.","parameters":{"properties":{},"required":[],"type":"object"}}

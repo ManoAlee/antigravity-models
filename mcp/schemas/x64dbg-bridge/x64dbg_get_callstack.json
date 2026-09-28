@@ -1,0 +1,1 @@
+{"name":"x64dbg_get_callstack","description":"Recupera o call stack atual (pilha de chamadas) do processo pausado, listando frames, modulos e funcoes.","parameters":{"properties":{},"type":"object"}}

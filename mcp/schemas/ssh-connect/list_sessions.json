@@ -1,0 +1,1 @@
+{"name":"list_sessions","description":"List all active connection sessions in the connection pool","parameters":{"properties":{},"required":[],"type":"object"}}

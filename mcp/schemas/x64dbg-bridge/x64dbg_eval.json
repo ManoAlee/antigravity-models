@@ -1,0 +1,1 @@
+{"name":"x64dbg_eval","description":"Avalia uma expressao no motor do x64dbg (ex: \"[rsp+8]\", \"rax \u0026 0xFF\", \"GetProcAddress\").","parameters":{"properties":{"expression":{"description":"Expressao matematica ou de ponteiro para avaliacao.","type":"string"}},"required":["expression"],"type":"object"}}

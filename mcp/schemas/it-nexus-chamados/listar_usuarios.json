@@ -1,0 +1,1 @@
+{"name":"listar_usuarios","description":"Alias de nexus_ad_lookup_user. Busca usuários cadastrados.","parameters":{"properties":{"search":{"type":"string"}},"type":"object"}}

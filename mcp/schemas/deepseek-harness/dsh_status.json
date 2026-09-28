@@ -1,0 +1,1 @@
+{"name":"dsh_status","description":"Verifica status, versao do Node.js e prontidao do DeepSeek Harness (dsh).","parameters":{"properties":{},"required":[],"type":"object"}}
